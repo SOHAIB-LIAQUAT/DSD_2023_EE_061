@@ -1,5 +1,6 @@
-# Combinational Circuits: Structural Modeling Simulation
-The folder contains the System Verilog code for structural modelling and test bench code for simulating the following circuit:
+# Combinational Circuits: Structural Modeling using Vivado
+
+This folder includes the system verilog code for structural modelling and constraint file for synthesizing the circuit to **Neuxs A7-100t FPGA board**.The following circuit has been implemented:
 
 ## Circuit Diagram
 ![Circuit-Diagram](https://github.com/user-attachments/assets/a0e37593-8a1b-4c2f-ab41-17865e8fecfd)
@@ -34,10 +35,16 @@ Local signals of the circuit include:
 - Output of NAND gate with inputs a and b.
 - Output of the second XOR gate with inputs from one of the OR gates and the NAND gate.
 
-## Test Bench Code
-Five test bench module signals; three for inputs and two for outputs are initialized for simulating the circuit.
-
-An instance lab3_inst is created for the module lab3. 8 possible input combinations according to the truth table are provided at an interval of 1ns and output waveform is simulated.
+## Constraint File
+The constraint file is for mapping the three inputs to three switches and the two outputs to two LEDs available on the Neuxs A7-100t FPGA board.
+The package pins used are:
+- LEDs
+	- V11 (LED 15)
+	- V12 (LED 14)
+- Switches
+	- V10 (Switch 15)
+	- U11 (Switch 14)
+	- U12 (Switch 13)
 
 ## Documents
-Iamge of the simulated wevform is provided as documentation.
+RTL schematic, maximum combinational delay and resource utilization are provided as documentation.

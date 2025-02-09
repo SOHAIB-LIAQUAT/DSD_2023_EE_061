@@ -1,15 +1,15 @@
-`timescale 1ns / 10ps
+`timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: UET Lahore
 // Engineer: Sohaib Liaquat
 // 
-// Create Date: 02/09/2025 03:55:05 PM
+// Create Date: 02/05/2025 07:39:42 PM
 // Design Name: Combinational Circuit
-// Module Name: Lab3
-// Project Name:Combinational Circuits Structural Modeling Simulation
+// Module Name: lab2
+// Project Name: Modelling Combinational Circuits using Vivado
 // Target Devices: Nexus A7 FPGA
 // Tool Versions: 
-// Description: Writing system verilog code and test bench code for simulating a combinational circuit
+// Description: Writing system verilog code and constraint file for a combinational circuit
 // 
 // Dependencies: 
 // 
@@ -19,17 +19,14 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-//-----Combinatorial Circuit Module Description-----//
-module lab3(
 
+module lab2(
     input  logic a,
     input  logic b,
     input  logic c,
     output logic x,
     output logic y
-
     );
-    
     //-----Local Signals-----//
     logic not_out;
     logic or_1_out;
