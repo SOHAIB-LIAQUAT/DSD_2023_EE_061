@@ -1,0 +1,17 @@
+//MUTARBA 2024 EE 114
+//seaction C
+#include <stdio.h>
+int main (void){
+int x=0;  terms=0;
+printf(" enter value of x:\n");
+printf("enter number of terms:\n");
+scanf("%d",&x);
+scanf("%d",&terms); 
+for (j=0; j<=10; j+=3)
+printf("%d", j);
+while(x!=terms){
+printf("%d", x*j)
+}
+printf("sum %d,  x*j")
+return 0;
+}
