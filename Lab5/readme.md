@@ -61,7 +61,7 @@ The truth table for Anodes is:
 ![Image](https://github.com/user-attachments/assets/9fb8ac31-4c39-47e3-bd9b-4e2aac18c571)
 
 <figure style="text-align: center;">
- 	<figcaption>Figure 1: K-Maps for the Seven Segment Anodes</figcaption>
+ 	<figcaption>Figure 1: K-Maps for the Seven Segment Cathodes</figcaption>
 </figure>
 
 
@@ -69,7 +69,7 @@ The truth table for Anodes is:
 ![Circuit Diagram](https://github.com/user-attachments/assets/263bee48-023a-4b96-bab0-813bad583bb7)
 
 <figure style="text-align: center;">
- 	<figcaption>Figure 2: Circuit diagram of the Seven Segment</figcaption>
+ 	<figcaption>Figure 2: Circuit diagram of the Seven Segment Circuit</figcaption>
 </figure>
 
 
